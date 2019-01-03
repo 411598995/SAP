@@ -1,0 +1,16 @@
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\bin\x86\Debug\Installer.exe
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\bin\x86\Debug\Installer.pdb
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\bin\x86\Debug\Installer.xml
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AyyekaAdvInstaller.vbproj.GenerateResource.cache
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AyyekaAdvInstaller.vbproj.CoreCompileInputs.cache
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\Installer.exe
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\Installer.xml
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\Installer.pdb
+D:\SAP\Dev\Ayyeka\Viatech\HRMSINstaller\obj\x86\Debug\AyyekaAdvInstaller.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\bin\x86\Debug\CRMInstaller.exe
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\bin\x86\Debug\CRMInstaller.pdb
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\bin\x86\Debug\CRMInstaller.xml
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\AdvProdInstaller.vbproj.GenerateResource.Cache
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\CRMInstaller.exe
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\CRMInstaller.xml
+D:\SAP\Dev\AdvProd\AddOne\HRMSINstaller\obj\x86\Debug\CRMInstaller.pdb
