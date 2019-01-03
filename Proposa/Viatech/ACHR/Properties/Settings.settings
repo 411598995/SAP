@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ACHR.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ViaTech_Magin_Sales_sales" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://inishpharmacy2018_com.abcommerce.com/webservices/sales.asmx</Value>
+    </Setting>
+    <Setting Name="ViaTech_MagiConnect_Stock_stock" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://inishpharmacy2018_com.abcommerce.com/webservices/stock.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

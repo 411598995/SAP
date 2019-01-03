@@ -1,0 +1,1 @@
+select itemcode from oitm

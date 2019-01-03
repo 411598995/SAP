@@ -1,0 +1,14 @@
+D:\Software\Projects\ElafReport\ElafReport\Intransit\bin\x86\Debug\Intransit.exe.config
+D:\Software\Projects\ElafReport\ElafReport\Intransit\obj\x86\Debug\Intransit.exe
+D:\Software\Projects\ElafReport\ElafReport\Intransit\obj\x86\Debug\Intransit.pdb
+D:\Software\Projects\ElafReport\ElafReport\Reports\bin\x86\Debug\Reports.exe.config
+D:\Software\Projects\ElafReport\ElafReport\Reports\bin\x86\Debug\Reports.exe
+D:\Software\Projects\ElafReport\ElafReport\Reports\bin\x86\Debug\Reports.pdb
+D:\Software\Projects\ElafReport\ElafReport\Reports\obj\x86\Debug\Reports.Properties.Resources.resources
+D:\Software\Projects\ElafReport\ElafReport\Reports\obj\x86\Debug\Reports.csproj.GenerateResource.Cache
+D:\Software\Projects\ElafReport\ElafReport\Reports\obj\x86\Debug\Reports.exe
+D:\Software\Projects\ElafReport\ElafReport\Reports\obj\x86\Debug\Reports.pdb
+C:\Projects\Corys\Corys\bin\x86\Debug\Reports.exe.config
+C:\Projects\Corys\Corys\obj\x86\Debug\Reports.exe
+C:\Projects\Corys\Corys\obj\x86\Debug\Reports.pdb
+C:\Projects\Corys\Corys\bin\x86\Debug\COrys.exe.config

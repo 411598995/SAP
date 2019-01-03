@@ -1,0 +1,17 @@
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.exe.config
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.pdb
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.csproj.ResolveComReference.cache
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.Properties.Resources.resources
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.csproj.GenerateResource.Cache
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.pdb
+E:\Projects\Disassembly\Disassembly\bin\x86\Debug\Disassembly.exe.config
+E:\Projects\Disassembly\Disassembly\bin\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\Disassembly\bin\x86\Debug\Disassembly.pdb
+E:\Projects\Disassembly\Disassembly\obj\x86\Debug\Disassembly.Properties.Resources.resources
+E:\Projects\Disassembly\Disassembly\obj\x86\Debug\Disassembly.csproj.GenerateResource.Cache
+E:\Projects\Disassembly\Disassembly\obj\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\Disassembly\obj\x86\Debug\Disassembly.pdb

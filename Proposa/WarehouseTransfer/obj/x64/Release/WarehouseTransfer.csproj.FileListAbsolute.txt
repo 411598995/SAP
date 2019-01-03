@@ -1,0 +1,4 @@
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\x64\Release\WarehouseTransfer.csprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\x64\Release\eOrderEntry.Properties.Resources.resources
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\x64\Release\WarehouseTransfer.csproj.GenerateResource.cache
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\x64\Release\WarehouseTransfer.csproj.CoreCompileInputs.cache

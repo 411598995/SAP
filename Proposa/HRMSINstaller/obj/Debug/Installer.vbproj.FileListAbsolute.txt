@@ -1,0 +1,14 @@
+D:\SAP\Dev\Proposa\HRMSINstaller\bin\Installer.exe
+D:\SAP\Dev\Proposa\HRMSINstaller\bin\Installer.pdb
+D:\SAP\Dev\Proposa\HRMSINstaller\bin\Installer.xml
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\Installer.vbproj.GenerateResource.cache
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\Installer.exe
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\Installer.xml
+D:\SAP\Dev\Proposa\HRMSINstaller\obj\Debug\Installer.pdb

@@ -1,0 +1,12 @@
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\bin\Debug\ABCImport.exe.config
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\bin\Debug\ABCImport.exe
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\bin\Debug\ABCImport.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\bin\Debug\ABCommerce.dll
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\bin\Debug\ABCommerce.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.csprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.csproj.ResolveComReference.cache
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.Properties.Resources.resources
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.csproj.GenerateResource.Cache
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.exe
+D:\SAP\Dev\Proposa\Viatech\ABCImport\ABCImport\obj\x86\Debug\ABCImport.pdb

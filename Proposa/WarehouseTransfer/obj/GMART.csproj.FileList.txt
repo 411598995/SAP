@@ -1,0 +1,12 @@
+bin\Debug\GMART.exe
+bin\Debug\GMART.pdb
+bin\Debug\Interop.SAPbobsCOM.dll
+bin\Debug\Interop.SAPbouiCOM.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.SAPbobsCOM.dll
+obj\Debug\Interop.SAPbouiCOM.dll
+obj\Debug\GMART.csproj.ResolveComReference.cache
+obj\Debug\GMART.Properties.Resources.resources
+obj\Debug\GMART.csproj.GenerateResource.Cache
+obj\Debug\GMART.exe
+obj\Debug\GMART.pdb

@@ -1,0 +1,7 @@
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\x86\Debug\eOrderEntry.exe.config
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\x86\Debug\eOrderEntry.exe
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\x86\Debug\eOrderEntry.pdb
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\x86\Debug\eOrderEntry.Properties.Resources.resources
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\x86\Debug\WarehouseTransfer.csproj.GenerateResource.Cache
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\x86\Debug\eOrderEntry.exe
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\x86\Debug\eOrderEntry.pdb

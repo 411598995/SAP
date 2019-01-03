@@ -1,0 +1,43 @@
+D:\Techsys\Projects\Arasca\HRArasca\bin\x86\Debug\HRArasca.exe.config
+D:\Techsys\Projects\Arasca\HRArasca\bin\x86\Debug\HRArasca.exe
+D:\Techsys\Projects\Arasca\HRArasca\bin\x86\Debug\HRArasca.pdb
+D:\Techsys\Projects\Arasca\HRArasca\bin\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Techsys\Projects\Arasca\HRArasca\bin\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\HRArasca.csproj.ResolveComReference.cache
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\HRArasca.Properties.Resources.resources
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\HRArasca.csproj.GenerateResource.Cache
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\HRArasca.exe
+D:\Techsys\Projects\Arasca\HRArasca\obj\x86\Debug\HRArasca.pdb
+D:\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\HRArasca.exe.config
+D:\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\HRArasca.exe
+D:\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\HRArasca.pdb
+D:\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.csproj.ResolveComReference.cache
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.Properties.Resources.resources
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.csproj.GenerateResource.Cache
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.exe
+D:\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.pdb
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\bin\x86\Debug\HRArasca.exe.config
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\Interop.SAPbobsCOM.dll
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\Interop.SAPbouiCOM.dll
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.csproj.ResolveComReference.cache
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.exe
+C:\Works\Techsys\Projects\Arasca - ESS\HRArasca\obj\x86\Debug\HRArasca.pdb
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.exe.config
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\HRArasca\bin\x86\Debug\Disassembly.pdb
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\HRArasca.csprojResolveAssemblyReference.cache
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\HRArasca.csproj.ResolveComReference.cache
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.Properties.Resources.resources
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\HRArasca.csproj.GenerateResource.Cache
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.exe
+E:\Projects\Disassembly\HRArasca\obj\x86\Debug\Disassembly.pdb

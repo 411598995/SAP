@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.magishop.com/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.magishop.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.magishop.com/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="TestPing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Parameters" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TestPingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestPingResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportOrders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FilterStatusID" type="s1:guid" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportOrdersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExportOrdersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportOrdersUsingDateRange">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FilterStatusID" type="s1:guid" />
+            <s:element minOccurs="1" maxOccurs="1" name="FromDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="ToDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportOrdersUsingDateRangeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExportOrdersUsingDateRangeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportShipments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportShipmentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExportShipmentsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderID" type="s1:guid" />
+            <s:element minOccurs="1" maxOccurs="1" name="FromStatusID" type="s1:guid" />
+            <s:element minOccurs="1" maxOccurs="1" name="ToStatusID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderTrackingReference" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderStatusMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateOrderStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetShipmentsToCompleted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShipmentIDs_Commaseperated" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetShipmentsToCompletedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetShipmentsToCompletedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportProductQuantitiesForNewOrders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExportProductQuantitiesForNewOrdersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExportProductQuantitiesForNewOrdersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNames" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderObject" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertOrderResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MagicoID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertOrderV2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AccountCodeType" type="tns:AccountCodeType" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNames" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderObject" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="AccountCodeType">
+        <s:restriction base="s:string">
+          <s:enumeration value="ExternalAccountCode" />
+          <s:enumeration value="ContactId" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="InsertOrderV2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertOrderV2Result" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MagicoID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNames" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderObject" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateOrderResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteOrderResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertOrderItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNames" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderItemObject" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertOrderItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertOrderItemResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MagicoID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderItemID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNames" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderItemObject" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateOrderItemResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOrderItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderItemID" type="s1:guid" />
+            <s:element minOccurs="0" maxOccurs="1" name="Options" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOrderItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteOrderItemResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestPingSoapIn">
+    <wsdl:part name="parameters" element="tns:TestPing" />
+  </wsdl:message>
+  <wsdl:message name="TestPingSoapOut">
+    <wsdl:part name="parameters" element="tns:TestPingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExportOrdersSoapIn">
+    <wsdl:part name="parameters" element="tns:ExportOrders" />
+  </wsdl:message>
+  <wsdl:message name="ExportOrdersSoapOut">
+    <wsdl:part name="parameters" element="tns:ExportOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExportOrdersUsingDateRangeSoapIn">
+    <wsdl:part name="parameters" element="tns:ExportOrdersUsingDateRange" />
+  </wsdl:message>
+  <wsdl:message name="ExportOrdersUsingDateRangeSoapOut">
+    <wsdl:part name="parameters" element="tns:ExportOrdersUsingDateRangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExportShipmentsSoapIn">
+    <wsdl:part name="parameters" element="tns:ExportShipments" />
+  </wsdl:message>
+  <wsdl:message name="ExportShipmentsSoapOut">
+    <wsdl:part name="parameters" element="tns:ExportShipmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateOrderStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateOrderStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetShipmentsToCompletedSoapIn">
+    <wsdl:part name="parameters" element="tns:SetShipmentsToCompleted" />
+  </wsdl:message>
+  <wsdl:message name="SetShipmentsToCompletedSoapOut">
+    <wsdl:part name="parameters" element="tns:SetShipmentsToCompletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExportProductQuantitiesForNewOrdersSoapIn">
+    <wsdl:part name="parameters" element="tns:ExportProductQuantitiesForNewOrders" />
+  </wsdl:message>
+  <wsdl:message name="ExportProductQuantitiesForNewOrdersSoapOut">
+    <wsdl:part name="parameters" element="tns:ExportProductQuantitiesForNewOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertOrder" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderV2SoapIn">
+    <wsdl:part name="parameters" element="tns:InsertOrderV2" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderV2SoapOut">
+    <wsdl:part name="parameters" element="tns:InsertOrderV2Response" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateOrder" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteOrder" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderItemSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertOrderItem" />
+  </wsdl:message>
+  <wsdl:message name="InsertOrderItemSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertOrderItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderItemSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateOrderItem" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderItemSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateOrderItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOrderItemSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteOrderItem" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOrderItemSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteOrderItemResponse" />
+  </wsdl:message>
+  <wsdl:portType name="salesSoap">
+    <wsdl:operation name="TestPing">
+      <wsdl:input message="tns:TestPingSoapIn" />
+      <wsdl:output message="tns:TestPingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrders">
+      <wsdl:input message="tns:ExportOrdersSoapIn" />
+      <wsdl:output message="tns:ExportOrdersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrdersUsingDateRange">
+      <wsdl:input message="tns:ExportOrdersUsingDateRangeSoapIn" />
+      <wsdl:output message="tns:ExportOrdersUsingDateRangeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportShipments">
+      <wsdl:input message="tns:ExportShipmentsSoapIn" />
+      <wsdl:output message="tns:ExportShipmentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderStatus">
+      <wsdl:input message="tns:UpdateOrderStatusSoapIn" />
+      <wsdl:output message="tns:UpdateOrderStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetShipmentsToCompleted">
+      <wsdl:input message="tns:SetShipmentsToCompletedSoapIn" />
+      <wsdl:output message="tns:SetShipmentsToCompletedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportProductQuantitiesForNewOrders">
+      <wsdl:input message="tns:ExportProductQuantitiesForNewOrdersSoapIn" />
+      <wsdl:output message="tns:ExportProductQuantitiesForNewOrdersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrder">
+      <wsdl:input message="tns:InsertOrderSoapIn" />
+      <wsdl:output message="tns:InsertOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderV2">
+      <wsdl:input message="tns:InsertOrderV2SoapIn" />
+      <wsdl:output message="tns:InsertOrderV2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <wsdl:input message="tns:UpdateOrderSoapIn" />
+      <wsdl:output message="tns:UpdateOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrder">
+      <wsdl:input message="tns:DeleteOrderSoapIn" />
+      <wsdl:output message="tns:DeleteOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderItem">
+      <wsdl:input message="tns:InsertOrderItemSoapIn" />
+      <wsdl:output message="tns:InsertOrderItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderItem">
+      <wsdl:input message="tns:UpdateOrderItemSoapIn" />
+      <wsdl:output message="tns:UpdateOrderItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrderItem">
+      <wsdl:input message="tns:DeleteOrderItemSoapIn" />
+      <wsdl:output message="tns:DeleteOrderItemSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="salesSoap" type="tns:salesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestPing">
+      <soap:operation soapAction="http://www.magishop.com/TestPing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrders">
+      <soap:operation soapAction="http://www.magishop.com/ExportOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrdersUsingDateRange">
+      <soap:operation soapAction="http://www.magishop.com/ExportOrdersUsingDateRange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportShipments">
+      <soap:operation soapAction="http://www.magishop.com/ExportShipments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderStatus">
+      <soap:operation soapAction="http://www.magishop.com/UpdateOrderStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetShipmentsToCompleted">
+      <soap:operation soapAction="http://www.magishop.com/SetShipmentsToCompleted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportProductQuantitiesForNewOrders">
+      <soap:operation soapAction="http://www.magishop.com/ExportProductQuantitiesForNewOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrder">
+      <soap:operation soapAction="http://www.magishop.com/InsertOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderV2">
+      <soap:operation soapAction="http://www.magishop.com/InsertOrderV2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <soap:operation soapAction="http://www.magishop.com/UpdateOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrder">
+      <soap:operation soapAction="http://www.magishop.com/DeleteOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderItem">
+      <soap:operation soapAction="http://www.magishop.com/InsertOrderItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderItem">
+      <soap:operation soapAction="http://www.magishop.com/UpdateOrderItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrderItem">
+      <soap:operation soapAction="http://www.magishop.com/DeleteOrderItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="salesSoap12" type="tns:salesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestPing">
+      <soap12:operation soapAction="http://www.magishop.com/TestPing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrders">
+      <soap12:operation soapAction="http://www.magishop.com/ExportOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportOrdersUsingDateRange">
+      <soap12:operation soapAction="http://www.magishop.com/ExportOrdersUsingDateRange" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportShipments">
+      <soap12:operation soapAction="http://www.magishop.com/ExportShipments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderStatus">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateOrderStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetShipmentsToCompleted">
+      <soap12:operation soapAction="http://www.magishop.com/SetShipmentsToCompleted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportProductQuantitiesForNewOrders">
+      <soap12:operation soapAction="http://www.magishop.com/ExportProductQuantitiesForNewOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrder">
+      <soap12:operation soapAction="http://www.magishop.com/InsertOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderV2">
+      <soap12:operation soapAction="http://www.magishop.com/InsertOrderV2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrder">
+      <soap12:operation soapAction="http://www.magishop.com/DeleteOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderItem">
+      <soap12:operation soapAction="http://www.magishop.com/InsertOrderItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderItem">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateOrderItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrderItem">
+      <soap12:operation soapAction="http://www.magishop.com/DeleteOrderItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="sales">
+    <wsdl:port name="salesSoap" binding="tns:salesSoap">
+      <soap:address location="http://inishpharmacy2018_com.abcommerce.com/webservices/sales.asmx" />
+    </wsdl:port>
+    <wsdl:port name="salesSoap12" binding="tns:salesSoap12">
+      <soap12:address location="http://inishpharmacy2018_com.abcommerce.com/webservices/sales.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

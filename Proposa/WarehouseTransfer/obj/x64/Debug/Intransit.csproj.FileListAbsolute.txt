@@ -1,0 +1,14 @@
+E:\Projects\Intransit\Intransit\bin\x64\Debug\Intransit.exe.config
+E:\Projects\Intransit\Intransit\bin\x64\Debug\Intransit.exe
+E:\Projects\Intransit\Intransit\bin\x64\Debug\Intransit.pdb
+E:\Projects\Intransit\Intransit\obj\x64\Debug\Intransit.Properties.Resources.resources
+E:\Projects\Intransit\Intransit\obj\x64\Debug\Intransit.csproj.GenerateResource.Cache
+E:\Projects\Intransit\Intransit\obj\x64\Debug\Intransit.exe
+E:\Projects\Intransit\Intransit\obj\x64\Debug\Intransit.pdb
+E:\Projects\ElafIntransit\Intransit\bin\x64\Debug\Intransit.exe.config
+E:\Projects\ElafIntransit\Intransit\bin\x64\Debug\Intransit.exe
+E:\Projects\ElafIntransit\Intransit\bin\x64\Debug\Intransit.pdb
+E:\Projects\ElafIntransit\Intransit\obj\x64\Debug\Intransit.Properties.Resources.resources
+E:\Projects\ElafIntransit\Intransit\obj\x64\Debug\Intransit.csproj.GenerateResource.Cache
+E:\Projects\ElafIntransit\Intransit\obj\x64\Debug\Intransit.exe
+E:\Projects\ElafIntransit\Intransit\obj\x64\Debug\Intransit.pdb

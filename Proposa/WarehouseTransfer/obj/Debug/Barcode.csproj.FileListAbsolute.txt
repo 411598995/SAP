@@ -1,0 +1,10 @@
+E:\Projects\Barcode\Barcode\bin\Debug\Barcode.exe.config
+E:\Projects\Barcode\Barcode\bin\Debug\Barcode.exe
+E:\Projects\Barcode\Barcode\bin\Debug\Barcode.pdb
+E:\Projects\Barcode\Barcode\obj\Debug\Barcode.Properties.Resources.resources
+E:\Projects\Barcode\Barcode\obj\Debug\Barcode.csproj.GenerateResource.Cache
+E:\Projects\Barcode\Barcode\obj\Debug\Barcode.exe
+E:\Projects\Barcode\Barcode\obj\Debug\Barcode.pdb
+E:\Projects\Intransit\Intransit\bin\Debug\Barcode.exe.config
+E:\Projects\Intransit\Intransit\obj\Debug\Barcode.exe
+E:\Projects\Intransit\Intransit\obj\Debug\Barcode.pdb

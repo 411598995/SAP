@@ -1,0 +1,35 @@
+E:\Projects\Corys\WarehouseTransfer\obj\Debug\WarehouseTransfer.Properties.Resources.resources
+E:\Projects\Corys\WarehouseTransfer\obj\Debug\WarehouseTransfer.csproj.GenerateResource.Cache
+E:\Projects\WarehouseTransfer - Copy\WarehouseTransfer\bin\Debug\WarehouseTransfer.exe.config
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\Debug\WarehouseTransfer.exe.config
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\Debug\WarehouseTransfer.exe
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\bin\Debug\WarehouseTransfer.pdb
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\Debug\WarehouseTransfer.Properties.Resources.resources
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\Debug\WarehouseTransfer.csproj.GenerateResource.Cache
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\Debug\WarehouseTransfer.exe
+E:\Projects\WarehouseTransfer - With Customer Sales History\WarehouseTransfer\obj\Debug\WarehouseTransfer.pdb
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\Debug\WarehouseTransfer.csprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\Debug\eOrderEntry.Properties.Resources.resources
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\Debug\WarehouseTransfer.csproj.GenerateResource.cache
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\eOrderEntry.exe.config
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\eOrderEntry.exe
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\eOrderEntry.pdb
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\SapBusinessOneExtensions.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\NLog.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\Microsoft.ApplicationInsights.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\NCrontab.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\CrystalDecisions.Enterprise.PluginManager.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Foundation.Logging.dll
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\SapBusinessOneExtensions.pdb
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\NLog.xml
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\Microsoft.ApplicationInsights.xml
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.ebus.netmodule
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.fssl.netmodule
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.Ssl.netmodule
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.netmodule
+D:\SAP\Dev\Proposa\WarehouseTransfer\bin\Debug\BusinessObjects.Enterprise.Sdk.ZipLib.netmodule
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\Debug\eOrderEntry.exe
+D:\SAP\Dev\Proposa\WarehouseTransfer\obj\Debug\eOrderEntry.pdb

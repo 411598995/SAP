@@ -1,0 +1,9 @@
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\bin\Debug\SystemsIntegrationSample.exe.config
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\bin\Debug\SystemsIntegrationSample.exe
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\bin\Debug\SystemsIntegrationSample.pdb
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.csprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.frmMagiConnectSample.resources
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.Properties.Resources.resources
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.csproj.GenerateResource.Cache
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.exe
+D:\SAP\Dev\Proposa\testing\SystemsIntegrationSample\obj\Debug\SystemsIntegrationSample.pdb

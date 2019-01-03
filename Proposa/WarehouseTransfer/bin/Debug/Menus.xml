@@ -1,0 +1,17 @@
+<Application>
+	<Menus>
+		<action type="add">
+
+      <!-- Employee Self Service -->
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="4" String= "Employee Self Service" Type="1" UniqueID="TS_OESS" />
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="5" String= "Position Responsibilities" Type="1" UniqueID="TS_OPKR" />
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="6" String= "Probation Position Responsibilities" Type="1" UniqueID="TS_OPPR" />
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="7" String= "Performance Appraisal" Type="1" UniqueID="TS_OEPF" />
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="8" String= "Performance Probation" Type="1" UniqueID="TS_OEPP" />
+      <Menu Checked="0" Enabled="1" FatherUID="43535" Position="9" String= "Expiry Of Documents" Type="1" UniqueID="TS_OEOD" />
+      
+            
+    </action>
+	</Menus>
+</Application>
+

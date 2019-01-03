@@ -1,0 +1,7 @@
+E:\Projects\Intransit\Intransit\bin\Debug\Intransit.exe.config
+E:\Projects\Intransit\Intransit\bin\Debug\Intransit.exe
+E:\Projects\Intransit\Intransit\bin\Debug\Intransit.pdb
+E:\Projects\Intransit\Intransit\obj\Debug\Intransit.Properties.Resources.resources
+E:\Projects\Intransit\Intransit\obj\Debug\Intransit.csproj.GenerateResource.Cache
+E:\Projects\Intransit\Intransit\obj\Debug\Intransit.exe
+E:\Projects\Intransit\Intransit\obj\Debug\Intransit.pdb

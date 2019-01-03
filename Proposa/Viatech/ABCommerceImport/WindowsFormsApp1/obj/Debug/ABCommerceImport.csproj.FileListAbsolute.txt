@@ -1,0 +1,15 @@
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\ABCommerceImport.exe.config
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\ABCommerceImport.exe
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\ABCommerceImport.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.csprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.csproj.ResolveComReference.cache
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.Properties.Resources.resources
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.csproj.GenerateResource.cache
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.csproj.CoreCompileInputs.cache
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.exe
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\bin\Debug\System.Net.Http.xml
+D:\SAP\Dev\Proposa\Viatech\ABCommerceImport\WindowsFormsApp1\obj\Debug\ABCommerceImport.csproj.CopyComplete

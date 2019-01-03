@@ -1,0 +1,15 @@
+C:\Projects\Corys\Corys\bin\Debug\Corys.exe.config
+C:\Projects\Corys\Corys\bin\Debug\Corys.exe
+C:\Projects\Corys\Corys\bin\Debug\Corys.pdb
+C:\Projects\Corys\Corys\obj\Debug\Corys.Properties.Resources.resources
+C:\Projects\Corys\Corys\obj\Debug\Corys.csproj.GenerateResource.Cache
+C:\Projects\Corys\Corys\obj\Debug\Corys.exe
+C:\Projects\Corys\Corys\obj\Debug\Corys.pdb
+E:\Projects\Corys\Corys\bin\Debug\WarehouseTransfer.exe.config
+E:\Projects\Corys\Corys\bin\Debug\WarehouseTransfer.exe
+E:\Projects\Corys\Corys\bin\Debug\WarehouseTransfer.pdb
+E:\Projects\Corys\Corys\obj\Debug\Corys.csprojResolveAssemblyReference.cache
+E:\Projects\Corys\Corys\obj\Debug\WarehouseTransfer.Properties.Resources.resources
+E:\Projects\Corys\Corys\obj\Debug\Corys.csproj.GenerateResource.Cache
+E:\Projects\Corys\Corys\obj\Debug\WarehouseTransfer.exe
+E:\Projects\Corys\Corys\obj\Debug\WarehouseTransfer.pdb

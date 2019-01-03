@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.magishop.com/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.magishop.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.magishop.com/">
+      <s:element name="UpdateStockActuals">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductCodes" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="QuantitiesAvailable" type="tns:ArrayOfDecimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDecimal">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="decimal" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateStockActualsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateStockActualsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockWithAdjustments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductCodes" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdjustmentQuantities" type="tns:ArrayOfDecimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockWithAdjustmentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateStockWithAdjustmentsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockActualsForOutlet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutletCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductCodes" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="QuantitiesAvailable" type="tns:ArrayOfDecimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockActualsForOutletResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateStockActualsForOutletResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockWithAdjustmentsForOutlet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutletCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductCodes" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdjustmentQuantities" type="tns:ArrayOfDecimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockWithAdjustmentsForOutletResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateStockWithAdjustmentsForOutletResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UpdateStockActualsSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockActuals" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockActualsSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockActualsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockWithAdjustmentsSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockWithAdjustments" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockWithAdjustmentsSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockWithAdjustmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockActualsForOutletSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockActualsForOutlet" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockActualsForOutletSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockActualsForOutletResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockWithAdjustmentsForOutletSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockWithAdjustmentsForOutlet" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockWithAdjustmentsForOutletSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockWithAdjustmentsForOutletResponse" />
+  </wsdl:message>
+  <wsdl:portType name="stockSoap">
+    <wsdl:operation name="UpdateStockActuals">
+      <wsdl:input message="tns:UpdateStockActualsSoapIn" />
+      <wsdl:output message="tns:UpdateStockActualsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustments">
+      <wsdl:input message="tns:UpdateStockWithAdjustmentsSoapIn" />
+      <wsdl:output message="tns:UpdateStockWithAdjustmentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockActualsForOutlet">
+      <wsdl:input message="tns:UpdateStockActualsForOutletSoapIn" />
+      <wsdl:output message="tns:UpdateStockActualsForOutletSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustmentsForOutlet">
+      <wsdl:input message="tns:UpdateStockWithAdjustmentsForOutletSoapIn" />
+      <wsdl:output message="tns:UpdateStockWithAdjustmentsForOutletSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="stockSoap" type="tns:stockSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateStockActuals">
+      <soap:operation soapAction="http://www.magishop.com/UpdateStockActuals" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustments">
+      <soap:operation soapAction="http://www.magishop.com/UpdateStockWithAdjustments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockActualsForOutlet">
+      <soap:operation soapAction="http://www.magishop.com/UpdateStockActualsForOutlet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustmentsForOutlet">
+      <soap:operation soapAction="http://www.magishop.com/UpdateStockWithAdjustmentsForOutlet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="stockSoap12" type="tns:stockSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateStockActuals">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateStockActuals" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustments">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateStockWithAdjustments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockActualsForOutlet">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateStockActualsForOutlet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockWithAdjustmentsForOutlet">
+      <soap12:operation soapAction="http://www.magishop.com/UpdateStockWithAdjustmentsForOutlet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="stock">
+    <wsdl:port name="stockSoap" binding="tns:stockSoap">
+      <soap:address location="http://inishpharmacy2018_com.abcommerce.com/webservices/stock.asmx" />
+    </wsdl:port>
+    <wsdl:port name="stockSoap12" binding="tns:stockSoap12">
+      <soap12:address location="http://inishpharmacy2018_com.abcommerce.com/webservices/stock.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

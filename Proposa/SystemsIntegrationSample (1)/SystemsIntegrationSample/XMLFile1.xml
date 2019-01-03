@@ -1,0 +1,112 @@
+﻿<DataExtract>
+  <Order>
+    <OrderID>0c4f382b-cb9d-4556-afce-51afa1d47428</OrderID>
+    <OrdNo>WEB80440</OrdNo>
+    <PONo />
+    <StatID>eab0ed46-686f-4b57-8f16-124b03714f16</StatID>
+    <StatCode>ORDERDOWNLOADED</StatCode>
+    <Status>Order Downloaded</Status>
+    <Date>2 Nov 2018 14:51</Date>
+    <CurrCode>EUR</CurrCode>
+    <Curr>€</Curr>
+    <NoItems>2</NoItems>
+    <ItemsTotal>8.45</ItemsTotal>
+    <Total>12.4</Total>
+    <AmtPaid>12.4</AmtPaid>
+    <Shipping>0</Shipping>
+    <ShippingFee>3.95</ShippingFee>
+    <Discount>0</Discount>
+    <Email>pauljohea@gmail.com</Email>
+    <DelType>ShipTo</DelType>
+    <OutletCode />
+    <Outlet />
+    <OutletID />
+    <ShipFirstName>Paul</ShipFirstName>
+    <ShipLastName>O'Hea</ShipLastName>
+    <ShipCompany />
+    <ShipAdd1>27 Spruce Meadows</ShipAdd1>
+    <ShipAdd2 />
+    <ShipAdd3 />
+    <ShipAdd4>Derry</ShipAdd4>
+    <ShipPostCode />
+    <ShipRegion>Ireland</ShipRegion>
+    <ShipRegionID>2e821baa-e65b-464d-8634-470305ef2d70</ShipRegionID>
+    <ShipMobile />
+    <ShipPhoneDay>07734113393</ShipPhoneDay>
+    <ShipPhoneEve />
+    <ShipEmail />
+    <BillFirstName />
+    <BillLastName />
+    <BillCompany />
+    <BillAdd1 />
+    <BillAdd2 />
+    <BillAdd3 />
+    <BillAdd4 />
+    <BillPostCode />
+    <BillRegion />
+    <BillMobile />
+    <BillPhoneDay />
+    <BillPhoneEve />
+    <PaymentTypeID>f680cbfd-b8d0-49c6-9f1f-430012df5827</PaymentTypeID>
+    <PaymentType>PayPal</PaymentType>
+    <TrackRef />
+    <StatusMsg />
+    <GiftMsg />
+    <ContID>ebb8e5cf-6f7a-4525-8a9a-0c9615b72ec2</ContID>
+    <CustCode />
+    <CustCodeNo />
+    <Company />
+    <ContType>b58d7d19-8376-40b0-b78c-98f5e3513141</ContType>
+    <IsSpecial>False</IsSpecial>
+    <PrimCustCode />
+    <PrimCustCodeNo />
+    <PrimContID />
+    <SUFirstName />
+    <SULastName />
+    <SUContID />
+    <Comments />
+    <PayProvRef>EC-942706492H598961U</PayProvRef>
+    <OrderItem>
+      <OrderID>0c4f382b-cb9d-4556-afce-51afa1d47428</OrderID>
+      <ItemID>c348fc75-63f8-4f9d-8ed2-380a4213dee4</ItemID>
+      <OrdNo>WEB80440</OrdNo>
+      <Code>WEBSHIP</Code>
+      <Title>Shipping Fee</Title>
+      <Price>3.95</Price>
+      <PriceDisc>0</PriceDisc>
+      <Qty>1</Qty>
+      <Total>3.95</Total>
+      <OrigPrice>3.95</OrigPrice>
+      <PromText />
+      <Weight>0</Weight>
+    </OrderItem>
+    <OrderItem>
+      <OrderID>0c4f382b-cb9d-4556-afce-51afa1d47428</OrderID>
+      <ItemID>6d17db09-9b3c-4826-af10-dee20e13ac25</ItemID>
+      <OrdNo>WEB80440</OrdNo>
+      <Code>BF88589</Code>
+      <Title>Beauty Formulas Activated Charcoal Fluoride Toothpaste 125ml</Title>
+      <Price>1.5</Price>
+      <PriceDisc>0</PriceDisc>
+      <Qty>1</Qty>
+      <Total>1.5</Total>
+      <OrigPrice>1.5</OrigPrice>
+      <PromText />
+      <Weight>0</Weight>
+    </OrderItem>
+    <OrderItem>
+      <OrderID>0c4f382b-cb9d-4556-afce-51afa1d47428</OrderID>
+      <ItemID>853e9844-9dfd-4100-a4e0-e89db9131f23</ItemID>
+      <OrdNo>WEB80440</OrdNo>
+      <Code>CALENDULA-CREAM</Code>
+      <Title>Weleda Calendula Nappy Change Cream 75ml</Title>
+      <Price>6.95</Price>
+      <PriceDisc>0</PriceDisc>
+      <Qty>1</Qty>
+      <Total>6.95</Total>
+      <OrigPrice>6.95</OrigPrice>
+      <PromText />
+      <Weight>0</Weight>
+    </OrderItem>
+  </Order>
+</DataExtract>

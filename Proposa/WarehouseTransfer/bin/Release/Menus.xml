@@ -1,0 +1,17 @@
+<Application>
+	<Menus>
+		<action type="add">
+
+      <!-- HR Recruitment -->
+      <Menu Checked="0" Enabled="1" FatherUID="43544" Position="1" String= "HR Recruitment" Type="2" UniqueID="TS_OHRR" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="0" String="Candidate Master" Type="1" UniqueID="TS_OCDM" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="1" String="Employee Request" Type="1" UniqueID="TS_OERQ" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="2" String="Interview Schedule" Type="1" UniqueID="TS_OISC" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="3" String="Interview Feedback" Type="1" UniqueID="TS_OIFB" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="4" String="Final Candidates" Type="1" UniqueID="TS_OFCD" />
+      <Menu Checked="0" Enabled="1" FatherUID="TS_OHRR" Position="5" String="Final Agreement" Type="1" UniqueID="TS_OFAG" />
+      
+    </action>
+	</Menus>
+</Application>
+

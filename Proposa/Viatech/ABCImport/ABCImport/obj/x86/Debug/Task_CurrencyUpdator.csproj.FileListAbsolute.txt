@@ -1,0 +1,12 @@
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\bin\Debug\Task_CurrencyUpdator.exe
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\bin\Debug\Task_CurrencyUpdator.pdb
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\bin\Debug\Newtonsoft.Json.dll
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\bin\Debug\Newtonsoft.Json.xml
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.csproj.ResolveComReference.cache
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.Properties.Resources.resources
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.csproj.GenerateResource.cache
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.csproj.CoreCompileInputs.cache
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.csproj.CopyComplete
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.exe
+D:\SAP\Dev\Kayyak\Task_CurrencyUpdator\Task_CurrencyUpdator\obj\x86\Debug\Task_CurrencyUpdator.pdb

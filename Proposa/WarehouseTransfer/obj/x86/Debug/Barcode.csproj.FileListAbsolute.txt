@@ -1,0 +1,7 @@
+E:\Projects\Barcode\Barcode\bin\x86\Debug\Barcode.exe.config
+E:\Projects\Barcode\Barcode\bin\x86\Debug\Barcode.exe
+E:\Projects\Barcode\Barcode\bin\x86\Debug\Barcode.pdb
+E:\Projects\Barcode\Barcode\obj\x86\Debug\Barcode.Properties.Resources.resources
+E:\Projects\Barcode\Barcode\obj\x86\Debug\Barcode.csproj.GenerateResource.Cache
+E:\Projects\Barcode\Barcode\obj\x86\Debug\Barcode.exe
+E:\Projects\Barcode\Barcode\obj\x86\Debug\Barcode.pdb

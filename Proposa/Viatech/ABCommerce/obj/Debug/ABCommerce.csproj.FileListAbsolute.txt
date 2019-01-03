@@ -1,0 +1,5 @@
+D:\SAP\Dev\Proposa\Viatech\ABCommerce\bin\Debug\ABCommerce.dll
+D:\SAP\Dev\Proposa\Viatech\ABCommerce\bin\Debug\ABCommerce.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCommerce\obj\Debug\ABCommerce.dll
+D:\SAP\Dev\Proposa\Viatech\ABCommerce\obj\Debug\ABCommerce.pdb
+D:\SAP\Dev\Proposa\Viatech\ABCommerce\obj\Debug\ABCommerce.csprojResolveAssemblyReference.cache

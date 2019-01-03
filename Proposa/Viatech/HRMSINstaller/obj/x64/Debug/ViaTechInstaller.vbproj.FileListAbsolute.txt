@@ -1,0 +1,15 @@
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\bin\x64\Debug\ViaTechInstaller.exe
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\bin\x64\Debug\ViaTechInstaller.pdb
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\bin\x64\Debug\ViaTechInstaller.xml
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\ViaTechInstaller.vbprojResolveAssemblyReference.cache
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\ViaTechInstaller.vbproj.GenerateResource.Cache
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\ViaTechInstaller.exe
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\ViaTechInstaller.xml
+D:\SAP\Dev\Proposa\Viatech\HRMSINstaller\obj\x64\Debug\ViaTechInstaller.pdb

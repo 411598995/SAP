@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Application>
+	<Menus>
+		<action type="Remove">    
+      
+      <!-- HR Recruitment -->
+      <Menu UniqueID="TS_OHRR" />
+      <Menu UniqueID="TS_OCDM" />
+      <Menu UniqueID="TS_OERQ" />
+      <Menu UniqueID="TS_OISC" />
+      <Menu UniqueID="TS_OIFB" />
+      <Menu UniqueID="TS_OFCD" />
+      
+		</action>
+	</Menus>
+</Application>

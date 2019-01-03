@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="https://inishpharmacy2018_com.abcommerce.com/webservices/stock.asmx?disco" filename="stock.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://inishpharmacy2018_com.abcommerce.com/webservices/stock.asmx?wsdl" filename="stock.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>
