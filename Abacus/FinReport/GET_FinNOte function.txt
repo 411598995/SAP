@@ -1,0 +1,27 @@
+DROP FUNCTION  Get_FINNOTE;
+CREATE FUNCTION Get_FINNOTE(pNote varchar(20), pDateF Date, pDateT Date)
+
+RETURNS result decimal(15,2)
+
+LANGUAGE SQLSCRIPT  
+
+SQL SECURITY INVOKER AS
+
+BEGIN
+ DECLARE GlAmnt decimal(15,2);
+ DECLARE CURSOR c_products FOR
+ SELECT T0."U_Row" , T0."U_Col"
+ FROM "@AC_RPT_NGL"  T0 INNER JOIN  "@AC_RPT_NR" T1 on T1."Code" = T0."U_Row"
+ WHERE IFNULL(T0."U_Row",'') <> '' AND  T1."U_Note" =  :pNote
+ GROUP BY T0."U_Row" , T0."U_Col";
+ FOR cur_row as c_products DO
+  
+     
+     
+	     result :=  IFNULL(result,0) +  GET_NOTEVAL( :pNote  , cur_row."U_Row" ,cur_row."U_Col"   , :pDateF, :pDateT);
+ 
+   
+  END FOR;
+result:= IFNULL(result,0);
+ 
+END;

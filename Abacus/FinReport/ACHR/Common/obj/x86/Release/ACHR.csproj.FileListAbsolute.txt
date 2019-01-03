@@ -1,0 +1,6 @@
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\bin\Release\ACHR.exe.config
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\obj\x86\Release\Interop.SAPbobsCOM.dll
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\obj\x86\Release\Interop.SAPbouiCOM.dll
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\obj\x86\Release\ACHR.csproj.ResolveComReference.cache
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\obj\x86\Release\ACHR.exe
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\ACHR\obj\x86\Release\ACHR.pdb

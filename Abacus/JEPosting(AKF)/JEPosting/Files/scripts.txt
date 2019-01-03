@@ -1,0 +1,136 @@
+Create FUNCTION [dbo].[JE_getJEDetHead]
+(	
+@DocNum varchar(50)
+	)
+RETURNS @dom TABLE (
+docDate date,
+docNum varchar(50),
+Remarks varchar(50),
+Ref1 varchar(50),
+Ref2 varchar(50)
+
+
+
+)
+AS
+begin
+
+insert into @dom select '8/1/2015',@docNum,'Test Remarks for ',@DocNum,@DocNum;
+
+
+
+  
+ 
+ return;
+end
+
+
+
+
+create FUNCTION [dbo].[JE_getJEDetRows]
+(	
+@DocNum varchar(50)
+	)
+RETURNS @dom TABLE (
+lineType varchar(2),
+acctCode varchar(50),
+acctName varchar(50),
+debit decimal(19,2),
+credit decimal(19,2),
+project varchar(30),
+ocr1 varchar(30),
+ocr2 varchar(30),
+ocr3 varchar(30),
+ocr4 varchar(30),
+ocr5 varchar(30)
+
+
+
+
+)
+AS
+begin
+
+insert into @dom 
+select 'GL','11163','CC Processing' , 500,0,'','Hamid','','','','';
+
+insert into @dom 
+select 'BP','C2101','TriangleBulbs.com' , 0,500,'','','','','','';
+
+
+
+  
+ 
+ return;
+end
+
+
+create FUNCTION [dbo].[JE_getJEOriginators]
+(	
+@user varchar(50)
+	)
+RETURNS @dom TABLE (
+UserId varchar(50),
+UserName varchar(50)
+
+
+)
+AS
+begin
+
+insert into @dom select 'Ubaid','Ubaid'
+insert into @dom select 'Sami','Sami'
+insert into @dom select 'Zeeshan','Zeeshan'
+
+
+
+  
+ 
+ return;
+end
+
+
+
+create FUNCTION [dbo].[JE_getJEs]
+(	
+@user varchar(50)
+	)
+RETURNS @dom TABLE (
+docDate date,
+docNum varchar(50),
+originator varchar(50),
+docTotal decimal(19,2)
+
+
+)
+AS
+begin
+
+insert into @dom select '8/1/2015','1254','Ubaid',500.89;
+insert into @dom select '8/2/2015','1255','Sami',700.89;
+insert into @dom select '8/3/2015','1256','Zeeshan',400.89;
+
+
+
+  
+ 
+ return;
+end
+
+ALTER procedure [dbo].[JE_UpdatedPostedJE]
+(	
+@DocNum varchar(50),
+@jeNum varchar(30)
+	)
+as
+begin
+
+update oitm set frgnname='Document ' + @DocNum  + ' Posted JE ' + @jeNum + ' Successfully!' where itemcode='TST75-EA'
+
+
+  
+ 
+ return;
+end
+
+

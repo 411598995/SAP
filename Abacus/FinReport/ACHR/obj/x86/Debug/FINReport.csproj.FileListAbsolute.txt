@@ -1,0 +1,15 @@
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\Properties\Resources.resx
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\Properties\Resources.Designer.cs
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\Msgs.res
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\CFL.bmp
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\FINReport.exe.config
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\FINReport.exe
+D:\SAP\Dev\Abacus\FinReport\ACHR\bin\Debug\FINReport.pdb
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\FINReport.csproj.ResolveComReference.cache
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\ACHR.Properties.Resources.resources
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\ACHR.Resources._32.Msgs.resources
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\ACHR.Resources.ln_English.Msgs.resources
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\FINReport.csproj.GenerateResource.Cache
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\FINReport.exe
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\FINReport.pdb
+D:\SAP\Dev\Abacus\FinReport\ACHR\obj\x86\Debug\FINReport.csprojResolveAssemblyReference.cache

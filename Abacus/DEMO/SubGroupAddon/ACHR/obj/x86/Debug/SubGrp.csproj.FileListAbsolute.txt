@@ -1,0 +1,14 @@
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\Properties\Resources.resx
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\Properties\Resources.Designer.cs
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\Msgs.res
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\CFL.bmp
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\SubGrp.exe.config
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\SubGrp.exe
+D:\SAP\Dev\SubGroup\ACHR\bin\Debug\SubGrp.pdb
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\SubGrp.csproj.ResolveComReference.cache
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\ACHR.Properties.Resources.resources
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\ACHR.Resources._32.Msgs.resources
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\ACHR.Resources.ln_English.Msgs.resources
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\SubGrp.csproj.GenerateResource.Cache
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\SubGrp.exe
+D:\SAP\Dev\SubGroup\ACHR\obj\x86\Debug\SubGrp.pdb

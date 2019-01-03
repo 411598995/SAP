@@ -1,0 +1,17 @@
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\ADARWADMInst.exe
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\ADARWADMInst.pdb
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\ADARWADMInst.xml
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.Resources.resources
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.vbproj.GenerateResource.Cache
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.exe
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.xml
+C:\AdarSource\trunk\WEBADM\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.pdb
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.exe
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.xml
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\ADARWADMInst.pdb

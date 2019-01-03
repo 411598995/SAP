@@ -1,0 +1,17 @@
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\BackOrderInst.vbproj.GenerateResource.Cache
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\BackOrderInst.exe
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\BackOrderInst.pdb
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\bin\x86\Debug\BackOrderInst.xml
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\BackOrderInst.exe
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\BackOrderInst.xml
+D:\SAP\Dev\CineSource\trunk\VISTA\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\BackOrderInst.pdb
+D:\SAP\Dev\CRM\AddOne\HRMSINstaller\obj\x86\Debug\BackOrderInst.exe
+D:\SAP\Dev\CRM\AddOne\HRMSINstaller\obj\x86\Debug\BackOrderInst.xml
+D:\SAP\Dev\CRM\AddOne\HRMSINstaller\obj\x86\Debug\BackOrderInst.pdb

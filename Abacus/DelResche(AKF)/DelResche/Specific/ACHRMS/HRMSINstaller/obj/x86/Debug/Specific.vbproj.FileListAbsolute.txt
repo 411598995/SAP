@@ -1,0 +1,17 @@
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\bin\x86\Debug\Specific.exe
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\bin\x86\Debug\Specific.pdb
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\bin\x86\Debug\Specific.xml
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseControl.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.BaseForm.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\AddOnInstaller.Resources.resources
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.vbproj.GenerateResource.Cache
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.exe
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.xml
+D:\SAP\Dev\ACHRMSLocal\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.pdb
+D:\Dev\Shipping\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.exe
+D:\Dev\Shipping\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.xml
+D:\Dev\Shipping\Specific\ACHRMS\HRMSINstaller\obj\x86\Debug\Specific.pdb

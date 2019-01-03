@@ -1,0 +1,6 @@
+* Query Sales For years (Herman) - Done
+* Query User Scans Count (Herman)
+* NOP Commerce to show CatalogId - Done
+* Dashboard testing (Samuel) - Done
+* TetraTech Report Fix 
+* Degree Verification Confirmation - Done

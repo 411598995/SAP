@@ -1,0 +1,15 @@
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\Properties\Resources.resx
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\Properties\Resources.Designer.cs
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\Msgs.res
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\CFL.bmp
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\DEMO.exe.config
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\DEMO.exe
+D:\SAP\Dev\Abacus\DEMO\ACHR\bin\Debug\DEMO.pdb
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\Demo.csproj.ResolveComReference.cache
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\ACHR.Properties.Resources.resources
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\ACHR.Resources._32.Msgs.resources
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\ACHR.Resources.ln_English.Msgs.resources
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\Demo.csproj.GenerateResource.Cache
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\DEMO.exe
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\DEMO.pdb
+D:\SAP\Dev\Abacus\DEMO\ACHR\obj\x86\Debug\Demo.csprojResolveAssemblyReference.cache

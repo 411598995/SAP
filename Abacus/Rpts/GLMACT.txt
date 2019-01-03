@@ -1,0 +1,27 @@
+CREATE FUNCTION Get_GL_MACT(IN pGL varchar(30), IN pMonth VARCHAR(20), IN pYear VARCHAR(20),pPrc varchar(20))
+
+RETURNS result decimal(15,2)
+LANGUAGE SQLSCRIPT   
+
+SQL SECURITY INVOKER AS
+
+BEGIN
+DECLARE GlAmnt decimal(15,2);
+declare dtFrom date;
+declare dtTo  date;
+
+dtFrom := CAST(:pYear as Varchar) || CAST(:pMonth as Varchar) || '01';
+
+dtTo := ADD_MONTHS (dtFrom,1);
+GlAmnt :=0.00;
+
+     
+	     SELECT  SUM(IFNULL(t1."Debit",0) - IFNULL(t1."Credit",0)) INTO GlAmnt from JDT1 t1
+	      WHERE  t1."Account"= :pGL AND  t1."RefDate" >= dtFrom  AND  t1."RefDate" <= dtTo AND t1."ProfitCode"  Like :pPrc ||  '%' ;
+
+   
+result :=  IFNULL(GlAmnt,0);
+    
+ 
+
+END;
